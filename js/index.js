@@ -2,7 +2,7 @@
 callAdviceApi()
 function callAdviceApi(){
     console.log('call API')
-    fetch('https://api.adviceslip.com/advice')
+    fetch('https://api.adviceslip.com/advice', {cache: "reload"})
     .then(result => result.json())
     .then(({slip}) => {
         const adviceId = document.getElementById('advice-id')

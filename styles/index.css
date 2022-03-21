@@ -38,7 +38,8 @@ body{
 
     background-color: var(--darkGrayBlue);
     padding: 1rem;
-
+    border-radius: 1rem;
+    min-width: auto;
     
 }
 
